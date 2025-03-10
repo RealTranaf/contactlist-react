@@ -1,7 +1,6 @@
 import React from 'react'
 
-const header = ({toggleModal, numOfContact}) => {
-
+function Header({ toggleModal, numOfContact }){
     return(
         <header className='header'>
             <div className='container'>
@@ -16,6 +15,4 @@ const header = ({toggleModal, numOfContact}) => {
         </header>
     )
 }
-
-
-export default Headers;
+export default Header;

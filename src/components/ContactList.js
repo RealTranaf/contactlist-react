@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from './Contact'
-const ContactList = ({data, currentPage, getAllContacts}) => {
+function ContactList({ data, currentPage, getAllContacts }){
   return (
     <div className='main'>
         {data?.content?.length === 0 && <div>No contacts. Please add a new contact.</div>}
