@@ -5,7 +5,7 @@ const API_URL = "http://localhost:8080/contacts"
 export async function saveContact(contact) {
     return await axios.post(API_URL, contact)
 }
-export async function getAllContacts(page = 0, size = 10) {
+export async function getContacts(page = 0, size = 10) {
     return await axios.get(`${API_URL}?page=${page}&size=${size}`)
 }
 export async function getContact(id) {

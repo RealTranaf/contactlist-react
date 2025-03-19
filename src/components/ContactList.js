@@ -19,7 +19,7 @@ function ContactList({ data, currentPage, getAllContacts }){
                     {page + 1}
                 </a>)} 
                 <a onClick={() => getAllContacts(currentPage + 1)} className={data?.totalPages === currentPage + 1 ? 'disabled' : ''}>
-                    &laquo;
+                    &raquo;
                 </a>
             </div>
           }
