@@ -26,7 +26,7 @@ function Contact({contact}){
                 <i className='bi bi-telephone'></i>
                 {contact.phone}
             </p>
-              <p>{contact.status === 'Active' ? <i class="bi bi-check-circle"></i> : <i class="bi bi-x-circle"></i>}{contact.status}</p>
+              <p>{contact.status === 'Active' ? <i className="bi bi-check-circle"></i> : <i className="bi bi-x-circle"></i>}{contact.status}</p>
         </div>
     </Link>
   )
